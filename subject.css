@@ -1,0 +1,66 @@
+header {background-color : grey; margin:0; padding:0;}
+
+nav ul {
+  display: flex;
+  list-style:none;
+  margin:0; padding:10px;
+}
+
+h1{
+  font-size:50px;
+}
+
+#buttonleft{
+  margin:9px; 
+  font-size:25px;
+  text-decoration:none;
+  color:white;
+}
+
+#buttonright{
+  margin:20px;
+  font-size:25px;
+  text-decoration:none;
+  color:white;
+}
+
+.btn:hover{
+  background-color:darkgrey;
+  letter-spacing:4px;
+  transition:all 0.5s linear;
+
+}
+
+main{margin:20px;}
+
+#detail{
+  display:grid; 
+  grid-template-columns:1fr 1fr
+}
+
+#photoframe{
+  width:320px;
+  height:320px;
+  overflow:hidden;
+  
+}
+
+#photoframe img:hover{
+  transform:scale(1.2);
+  transition: transform 0.5s;
+}
+
+#photo:hover{
+  /* transform:scale(1.2);
+  transition: transform 0.5s; */
+}
+
+h2{font-size:40px;}
+
+section{font-size:30px}
+
+footer{background-color:darkgrey;
+      margin:0px;
+      padding:40px;
+      font-size:18px;
+    }
